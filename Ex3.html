@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" method="post" style="text-align: center;">
+        <h1>FEEDBACK FORM</h1>
+        <table style="margin-left: auto; margin-right: auto;">
+            <tr>
+                <td><label for="name">Name:</label></td>
+                <td><input type="text" id="name" name="name" required></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="email" id="email" name="email" required></td>
+            </tr>
+            <tr>
+                <td><label for="feedback">Feedback:</label></td>
+                <td><textarea id="feedback" name="feedback" rows="4" cols="50" required></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="satisfaction">Satisfaction:</label></td>
+                <td>
+                    <input type="radio" id="satisfaction1" name="satisfaction" value="Satisfied" required>
+                    <label for="satisfaction1">Satisfied</label>
+                    <input type="radio" id="satisfaction2" name="satisfaction" value="Neutral">
+                    <label for="satisfaction2">Neutral</label>
+                    <input type="radio" id="satisfaction3" name="satisfaction" value="Unsatisfied">
+                    <label for="satisfaction3">Unsatisfied</label>
+
+                </td>
+            </tr>
+        </table>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

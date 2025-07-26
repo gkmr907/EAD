@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" method="post" style="text-align: center;">
+        <h1>Student Registration Form </h1>
+        <table style="margin-left: auto; margin-right: auto;">
+            <tr>
+                <td><label for="name">Name:</label></td>
+                <td><input type="text" id="name" name="name" required></td>
+            </tr>
+            <tr>
+                <td><label for="rollnumber">Roll Number:</label></td>
+                <td><input type="number" id="rollnumber" name="rollnumber" required></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="email" id="email" name="email" required></td>
+            </tr>
+            <tr>
+                <td><label for="phonenumber">Phone Number:</label></td>
+                <td><input type="number" id="phonenumber" name="phonenumber" required></td>
+            </tr>
+            <tr>
+                <td><label for="Gender">Gender</label></td>
+                <td>
+                    <input type="radio" id="male" name="Gender" value="male" required>
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="Gender" value="female" required>
+                    <label for="female">Female</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="branch">Branch:</label></td>
+                <td>
+                    <select id="branch" name="branch">
+                        <option value="CSE">CSE</option>
+                        <option value="ECE">ECE</option>
+                        <option value="MECH">MECH</option>
+                        <option value="IT">IT</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+        <input type="submit" value="Submit">
+
+    </form>
+
+</body>
+</html>
